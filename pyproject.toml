@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "onyx-mentor"
+version = "0.1.0"
+description = ""
+authors = ["Igor Gorelkov <igorelkov@keenetica.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^22.3"
+dotenv = "^0.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
